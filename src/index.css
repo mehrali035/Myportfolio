@@ -15,30 +15,48 @@
 }
 
 .colorh {
-  background-color: rgb(12 74 110);
+  /* background-color: rgb(12 74 110); */
+  background: linear-gradient(
+    to top,#64748b,#475569,#334155,#1e293b
+  );
 }
 
-/* .colorn{
-  background-color:rgb(12 74 110);
-} */
+.colorn{
+  /* background-color:rgb(12 74 110); */
+  background: linear-gradient(
+    to top,#64748b,#475569,#334155,#1e293b
+  );
+}
 .colorn {
-  background-color: rgb(7 89 133);
+  /* background-color: rgb(7 89 133); */
 }
 
 .colora {
-  background-color: rgb(7 89 133);
+  /* background-color: rgb(7 89 133); */
+  background: linear-gradient(
+    to top,#0f172a,#475569,#0f172a,#1e293b
+  );
 }
 
 .colors {
-  background-color: rgb(3 105 161);
+  /* background-color: rgb(3 105 161); */
+  background: linear-gradient(
+    to top,#64748b,#475569,#334155,#1e293b
+  );
 }
 
 .colorp {
-  background-color: rgb(10, 108, 158);
+  /* background-color: rgb(10, 108, 158); */
+  background: linear-gradient(
+    to top,#64748b,#475569,#334155,#1e293b
+  );
 }
 
 .colorc {
-  background-color: rgb(2 132 199);
+  /* background-color: rgb(2 132 199); */
+  background: linear-gradient(
+    to top,#64748b,#475569,#334155,#1e293b
+  );
 }
 
 .color {
@@ -368,7 +386,12 @@ button:active {
 
 
 
-
+span{
+  background: linear-gradient(120deg, #22d3ee 30%,#38bdf8,#3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+} 
 
 .cards:hover {
   transform: scale(1.2);
@@ -437,4 +460,8 @@ button:active {
   height:300px;
   z-index:0;
   border: 1px solid rgb(99, 99, 99);
+}
+
+.color{
+  color: white;
 }

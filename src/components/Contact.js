@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen p-4 text-white colora"
+      className="w-full h-screen p-4 text-white colorc"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <div>
                 {/* <input type="submit" name="submit" id="submit" class="btn" value="send" /> */}
-                <span>send</span>
+                <span className="color">send</span>
               </div>
             </button>
           </form>
